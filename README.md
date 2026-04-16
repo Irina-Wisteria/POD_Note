@@ -4,9 +4,9 @@
 ## 1. 对象
 
 设你有 $n$ 个流场快照，每个快照离散后是一个 $m$ 维列向量：
-/[
+$$
 y_1,\dots,y_n\in \mathbb{R}^m.
-/]
+$$
 把它们排成矩阵
 $$
 Y=[y_1,\dots,y_n]\in\mathbb{R}^{m\times n}.

@@ -1,4 +1,4 @@
-# 手算 POD
+﻿# 手算 POD
 
 > 参考资料：
 > [康斯坦茨大学数学与统计系 POD 讲义](https://www.math.uni-konstanz.de/numerik/personen/volkwein/teaching/POD-Book.pdf)
@@ -328,7 +328,7 @@ $$
 \lambda_3=0.
 $$
 
-因为所有快照都落在 $\operatorname{span}(y_1,y_2)$ 张成的二维子空间里，所以第三个方向上没有任何能量。
+因为所有快照都落在 $\mathrm{span}(y_1,y_2)$ 张成的二维子空间里，所以第三个方向上没有任何能量。
 
 ---
 

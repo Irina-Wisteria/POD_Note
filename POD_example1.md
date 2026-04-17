@@ -93,9 +93,7 @@ $$
 那么
 
 $$ 
-
-\langle y_1,\psi\rangle
-=
+\langle y_1,\psi\rangle=
 \begin{bmatrix}
 2 & 0 & 0
 \end{bmatrix}

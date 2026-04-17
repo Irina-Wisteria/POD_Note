@@ -1,7 +1,9 @@
 ﻿# 手算 POD
 
 > 参考资料：
+> 
 > [康斯坦茨大学数学与统计系 POD 讲义](https://www.math.uni-konstanz.de/numerik/personen/volkwein/teaching/POD-Book.pdf)
+> 
 > [Stanford University CME345 课程讲义](https://web.stanford.edu/group/frg/course_work/CME345/CA-AA216-CME345-Ch4.pdf)
 
 ## 1. 先造一个最小快照矩阵

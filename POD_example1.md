@@ -79,7 +79,16 @@ $$
 
 设
 
-$$\psi = \begin{bmatrix} a \\ b \\ c \end{bmatrix}, \qquad a^2 + b^2 + c^2 = 1$$
+$$
+\psi=
+\begin{bmatrix}
+a \\
+b \\
+c
+\end{bmatrix},
+\qquad
+a^2+b^2+c^2=1.
+$$
 
 那么
 
@@ -95,20 +104,6 @@ b \\
 c
 \end{bmatrix}
 =2a,
-$$
-
-$$
-\langle y_2,\psi\rangle
-=
-\begin{bmatrix}
-0 & 1 & 1
-\end{bmatrix}
-\begin{bmatrix}
-a \\
-b \\
-c
-\end{bmatrix}
-=b+c.
 $$
 
 所以目标函数变成

@@ -92,7 +92,8 @@ $$
 
 那么
 
-$$
+$$ 
+
 \langle y_1,\psi\rangle
 =
 \begin{bmatrix}

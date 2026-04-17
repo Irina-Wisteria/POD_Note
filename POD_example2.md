@@ -1,7 +1,9 @@
 # 手算带权 POD
 
 > 参考资料：
+> 
 > [康斯坦茨大学数学与统计系 POD 讲义](https://www.math.uni-konstanz.de/numerik/personen/volkwein/teaching/POD-Book.pdf)
+> 
 > [Stanford University CME345 课程讲义](https://web.stanford.edu/group/frg/course_work/CME345/CA-AA216-CME345-Ch4.pdf)
 
 在带权 POD 里，内积写成
@@ -69,13 +71,12 @@ $$
 先求均值快照：
 
 $$
-\bar x=\frac{1}{4}(x_1+x_2+x_3+x_4)
-=\frac{1}{4}
+\bar x=\frac{1}{4}(x_1+x_2+x_3+x_4)=
+\frac{1}{4}
 \begin{bmatrix}
 2+0+1+1 \\
 1+1+2+0
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 1 \\
 1
@@ -222,10 +223,8 @@ $$
 依次计算 4 个快照在 $\phi$ 上的带权投影：
 
 $$
-\langle y_1,\phi\rangle_W
-=
-\phi^\top Wy_1
-=
+\langle y_1,\phi\rangle_W=
+\phi^\top Wy_1=
 \begin{bmatrix}
 a & b
 \end{bmatrix}
@@ -329,8 +328,7 @@ $$
 先看正交条件：
 
 $$
-\phi_2^\top W\phi_1
-=
+\phi_2^\top W\phi_1=
 \begin{bmatrix}
 a & b
 \end{bmatrix}
@@ -341,8 +339,7 @@ a & b
 \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 0
-\end{bmatrix}
-=
+\end{bmatrix}=
 \sqrt{2}\,a
 =0.
 $$
@@ -376,8 +373,7 @@ $$
 对应能量为
 
 $$
-\lambda_2
-=
+\lambda_2=
 \sum_{j=1}^4 \langle y_j,\phi_2\rangle_W^2
 =0^2+0^2+1^2+(-1)^2
 =2.
@@ -390,8 +386,7 @@ $$
 现在验证一下：
 
 $$
-\phi_1^\top W\phi_1
-=
+\phi_1^\top W\phi_1=
 \begin{bmatrix}
 \frac{1}{\sqrt{2}} & 0
 \end{bmatrix}
@@ -407,8 +402,7 @@ $$
 $$
 
 $$
-\phi_2^\top W\phi_2
-=
+\phi_2^\top W\phi_2=
 \begin{bmatrix}
 0 & 1
 \end{bmatrix}
@@ -448,8 +442,7 @@ YY^\top=
 -1 & 0 \\
 0 & 1 \\
 0 & -1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 2 & 0 \\
 0 & 2
@@ -479,8 +472,7 @@ YY^\top W=
 \begin{bmatrix}
 2 & 0 \\
 0 & 1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 4 & 0 \\
 0 & 2
@@ -494,8 +486,7 @@ $$
 4 & 0 \\
 0 & 2
 \end{bmatrix}
-\phi
-=
+\phi=
 \lambda \phi.
 $$
 
@@ -580,14 +571,12 @@ $$
 ### 对 $y_1$
 
 $$
-y_1=\sqrt{2}\,\phi_1+0\cdot \phi_2
-=
+y_1=\sqrt{2}\,\phi_1+0\cdot \phi_2=
 \sqrt{2}
 \begin{bmatrix}
 \frac{1}{\sqrt{2}} \\
 0
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 1 \\
 0
@@ -597,8 +586,7 @@ $$
 ### 对 $y_2$
 
 $$
-y_2=-\sqrt{2}\,\phi_1
-=
+y_2=-\sqrt{2}\,\phi_1=
 \begin{bmatrix}
 -1 \\
 0
@@ -608,8 +596,7 @@ $$
 ### 对 $y_3$
 
 $$
-y_3=\phi_2
-=
+y_3=\phi_2=
 \begin{bmatrix}
 0 \\
 1
@@ -619,8 +606,7 @@ $$
 ### 对 $y_4$
 
 $$
-y_4=-\phi_2
-=
+y_4=-\phi_2=
 \begin{bmatrix}
 0 \\
 -1
@@ -647,8 +633,7 @@ x_1=
 \begin{bmatrix}
 1 \\
 0
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 2 \\
 1
@@ -663,8 +648,7 @@ x_3=
 \begin{bmatrix}
 0 \\
 1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 1 \\
 2
@@ -684,19 +668,15 @@ $$
 于是
 
 $$
-\hat y_1^{(1)}
-=
-\sqrt{2}\,\phi_1
-=
+\hat y_1^{(1)}=
+\sqrt{2}\,\phi_1=
 \begin{bmatrix}
 1 \\
 0
 \end{bmatrix},
 \qquad
-\hat y_2^{(1)}
-=
--\sqrt{2}\,\phi_1
-=
+\hat y_2^{(1)}=
+-\sqrt{2}\,\phi_1=
 \begin{bmatrix}
 -1 \\
 0

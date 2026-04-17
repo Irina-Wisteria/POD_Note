@@ -899,11 +899,11 @@ $$
 
 你可以把完整流程记成这 6 步：
 
-1. **原始快照**：$x_j$
-2. **减均值**：$y_j=x_j-\bar x$
-3. **选内积**：$\langle u,v\rangle_W=u^\top Wv$
+1. **原始快照**： $x_j$
+2. **减均值**： $y_j=x_j-\bar x$
+3. **选内积**： $\langle u,v\rangle_W=u^\top Wv$
 4. **求模态**：最大化带权投影能量
-5. **算系数**：$a_{ij}=\langle y_j,\phi_i\rangle_W$
+5. **算系数**： $a_{ij}=\langle y_j,\phi_i\rangle_W$
 6. **重构原场**：
 
 $$

@@ -332,7 +332,6 @@ $$
 先算
 
 $$ 
-
 YY^\top=
 \begin{bmatrix}
 2 & 0 \\
@@ -342,8 +341,7 @@ YY^\top=
 \begin{bmatrix}
 2 & 0 & 0 \\
 0 & 1 & 1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 4 & 0 & 0 \\
 0 & 1 & 1 \\
@@ -360,8 +358,7 @@ $$
 0 & 1 & 1 \\
 0 & 1 & 1
 \end{bmatrix}
-\psi
-=
+\psi=
 \lambda\psi.
 $$
 
@@ -542,8 +539,7 @@ Y^\top Y=
 2 & 0 \\
 0 & 1 \\
 0 & 1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 4 & 0 \\
 0 & 2

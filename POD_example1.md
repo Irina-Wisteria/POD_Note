@@ -331,7 +331,8 @@ $$
 
 先算
 
-$$
+$$ 
+
 YY^\top=
 \begin{bmatrix}
 2 & 0 \\
@@ -353,6 +354,7 @@ $$
 所以我们要解
 
 $$
+
 \begin{bmatrix}
 4 & 0 & 0 \\
 0 & 1 & 1 \\
@@ -530,6 +532,7 @@ $$
 先算
 
 $$
+
 Y^\top Y=
 \begin{bmatrix}
 2 & 0 & 0 \\
@@ -636,10 +639,8 @@ $$
 第一模态系数：
 
 $$
-a_{11}
-=
-\langle y_1,\psi_1\rangle
-=
+a_{11}=
+\langle y_1,\psi_1\rangle=
 \begin{bmatrix}
 2 & 0 & 0
 \end{bmatrix}
@@ -654,10 +655,8 @@ $$
 第二模态系数：
 
 $$
-a_{21}
-=
-\langle y_1,\psi_2\rangle
-=
+a_{21}=
+\langle y_1,\psi_2\rangle=
 \begin{bmatrix}
 2 & 0 & 0
 \end{bmatrix}
@@ -681,10 +680,8 @@ $$
 第一模态系数：
 
 $$
-a_{12}
-=
-\langle y_2,\psi_1\rangle
-=
+a_{12}=
+\langle y_2,\psi_1\rangle=
 \begin{bmatrix}
 0 & 1 & 1
 \end{bmatrix}
@@ -699,10 +696,8 @@ $$
 第二模态系数：
 
 $$
-a_{22}
-=
-\langle y_2,\psi_2\rangle
-=
+a_{22}=
+\langle y_2,\psi_2\rangle=
 \begin{bmatrix}
 0 & 1 & 1
 \end{bmatrix}
@@ -711,10 +706,8 @@ a_{22}
 0 \\
 1 \\
 1
-\end{bmatrix}
-=
-\frac{2}{\sqrt{2}}
-=
+\end{bmatrix}=
+\frac{2}{\sqrt{2}}=
 \sqrt{2}.
 $$
 
@@ -763,12 +756,9 @@ $$
 一模态重构：
 
 $$
-\hat y_1
-=
-\langle y_1,\psi_1\rangle\psi_1
-=
-2\psi_1
-=
+\hat y_1=
+\langle y_1,\psi_1\rangle\psi_1=
+2\psi_1=
 \begin{bmatrix}
 2 \\
 0 \\
@@ -783,10 +773,8 @@ $$
 一模态重构：
 
 $$
-\hat y_2
-=
-\langle y_2,\psi_1\rangle\psi_1
-=0.
+\hat y_2=
+\langle y_2,\psi_1\rangle\psi_1=0.
 $$
 
 所以第二个快照完全丢失了。
@@ -875,8 +863,7 @@ $$
 
 $$
 \boxed{
-\text{截断到 } r \text{ 个模态后的总平方误差}
-=
+\text{截断到 } r \text{ 个模态后的总平方误差}=
 \sum_{i=r+1}^{m}\lambda_i
 }
 $$
@@ -890,15 +877,13 @@ $$
 当前两个快照的均值是
 
 $$
-\bar y=\frac{1}{2}(y_1+y_2)
-=
+\bar y=\frac{1}{2}(y_1+y_2)=
 \frac{1}{2}
 \begin{bmatrix}
 2 \\
 1 \\
 1
-\end{bmatrix}
-=
+\end{bmatrix}=
 \begin{bmatrix}
 1 \\
 0.5 \\

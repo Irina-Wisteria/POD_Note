@@ -79,16 +79,7 @@ $$
 
 设
 
-$$
-\psi=
-\begin{bmatrix}
-a \\
-b \\
-c
-\end{bmatrix},
-\qquad
-a^2+b^2+c^2=1.
-$$
+$$\psi = \begin{bmatrix} a \\ b \\ c \end{bmatrix}, \qquad a^2 + b^2 + c^2 = 1$$
 
 那么
 
